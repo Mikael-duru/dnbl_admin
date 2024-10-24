@@ -1,19 +1,3 @@
-// import { NextRequest, NextResponse } from 'next/server';
-
-// export function middleware(req: NextRequest) {
-//   const { pathname } = req.nextUrl;
-//   const authCookie = req.cookies.get('auth');
-
-//   // Check if the user is trying to access the dashboard
-//   if (pathname === '/' && !authCookie) {
-//     return NextResponse.redirect(new URL('/sign-in', req.url)); // Redirect to login
-//   }
-// }
-
-// export const config = {
-//   matcher: ['/'],  // Apply middleware only to the homepage
-// };
-
 import { NextRequest, NextResponse } from 'next/server';
 
 export function middleware(req: NextRequest) {
