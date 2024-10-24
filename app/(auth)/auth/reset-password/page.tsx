@@ -126,7 +126,7 @@ function NewPassword() {
 				{/* Image Container */}
 				<div className="relative rounded-3xl max-h-screen overflow-hidden max-w-full md:max-w-[50%] lg:max-w-[50%] max-lg:mt-5">
 					<Image
-						src="/assets/signIn-banner.png"
+						src="/signIn-banner.png"
 						alt="DNBL Fashion"
 						width={700}
 						height={984}
@@ -134,7 +134,7 @@ function NewPassword() {
 					/>
 					<div className="absolute inset-0 bg-sign-in-layer"></div>
 					<Image
-						src="/assets/white-logo.png"
+						src="/white-logo.png"
 						alt="DNBL Fashion"
 						width={196}
 						height={88}

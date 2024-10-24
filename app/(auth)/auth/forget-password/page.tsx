@@ -64,7 +64,7 @@ function ForgetPassword() {
 			<div className="flex flex-col lg:flex-row gap-8 lg:gap-10 xl:gap-[133px] w-full justify-center items-center xl:justify-start bg-white dark:bg-[#2E2E2E] px-[5%] sm:p-5 overflow-hidden">
 				<div className="relative rounded-3xl max-h-screen overflow-hidden max-w-full md:max-w-[50%] lg:max-w-[50%] max-lg:mt-5">
 					<Image
-						src="/assets/signIn-banner.png"
+						src="/signIn-banner.png"
 						alt="DNBL Fashion"
 						width={700}
 						height={984}
@@ -72,7 +72,7 @@ function ForgetPassword() {
 					/>
 					<div className="absolute inset-0 bg-sign-in-layer"></div>
 					<Image
-						src="/assets/white-logo.png"
+						src="/white-logo.png"
 						alt="DNBL Fashion"
 						width={196}
 						height={88}
