@@ -1,27 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@layer components {
+	.heading {
+		@apply text-2xl sm:text-[28px] sm:leading-[120%] font-libre-franklin font-semibold tracking-[-0.02em] text-dark-blue dark:text-[#fdfdfd] text-center pb-2;
+	}
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+.headline {
+	@apply text-[#667185] dark:text-gray-300 text-sm sm:text-base font-libre-franklin text-center font-normal pb-10;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.label-heading {
+	@apply block text-sm text-dark-blue dark:text-white font-libre-franklin font-medium mb-1;
 }
